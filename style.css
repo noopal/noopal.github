@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+.header-logo {
+    padding: 20px 60px;
+    font-weight: bold;
+    font-size: 25px;
+    flex: auto;
+    color: #27debf;
+}
+
+.header-menu ul {
+    padding-right: 60px;
+    display: flex;
+}
+
+.header-menu li {
+    padding: 25px 20px;
+}
+
+.header-menu li a {
+    color: black;
+}
+
+.konten {
+    padding: 60px 120px;
+    height: 500px;
+    display: flex;
+}
+
+.konten .judul {
+    flex: auto;
+}
+
+.konten .gambar-konten {
+    flex: auto;
+}
+
+.konten .gambar-konten img {
+    width: 40%;
+    position: relative;
+    left: 350px;
+}
+
+.konten h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.konten span {
+    color: #27debf;
+}
+
+.kontakSaya {
+    height: 40px;
+    width: 120px;
+    background-color: #27debf;
+    border: none;
+    border-radius: 50px;
+}
+
+.kontakSaya a {
+    color: #fff;
+    padding: 15px;
+}
+
+.form-kenalan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-kenalan h3 {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 15px;
+    color: #black;
+}
+
+.form-kenalan .form {
+    padding: ;
+    border-radius: 15px;
+    background-color: #27debf;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-kenalan .form input {
+    border: none;
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.form-kenalan .form button {
+    width: 80%;
+    height: 35px;
+    background-color: #fff;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.form-kenalan .form button a {
+    color: black;
+}
